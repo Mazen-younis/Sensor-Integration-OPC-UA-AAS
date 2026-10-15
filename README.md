@@ -30,6 +30,7 @@ The objective was to establish a reliable and extensible data foundation for fut
 - Docker & Docker Compose
 
 ## System Architecture
+
 ![System architecture](docs/architecture/system_architecture.png)
 
 *Overall system architecture of the implemented monitoring and integration pipeline.*
@@ -40,7 +41,21 @@ The solution follows a modular architecture consisting of:
 2. **Backend integration** – resilient communication services and data processing
 3. **Semantic integration** – mapping selected OPC UA values into AAS submodels using Eclipse BaSyx
 4. **Data persistence** – time-series storage in MongoDB
-5. **Visualization** – web-based live monitoring of machine and sensor data
+5. **Visualisation** – web-based live monitoring of machine and sensor data
+
+## Project Highlights
+
+### Live Sensor Monitoring
+
+![ITENDO² live monitoring](docs/screenshots/itendo-live-monitoring.png)
+
+*Live monitoring of acceleration data from the ITENDO² spindle-mounted sensor, including connection status and packet-loss indicators.*
+
+### OPC UA to AAS Integration
+
+![OPC UA to AAS mapping](docs/screenshots/aas-opcua-mapping.png)
+
+*Example of a live OPC UA machine property mapped into an Asset Administration Shell submodel and exposed through Eclipse BaSyx.*
 
 ## My Contribution
 
@@ -62,6 +77,6 @@ Predictive-maintenance algorithms and machine-learning models were intentionally
 
 ## Repository Status
 
-This repository is a **public portfolio version** of the bachelor thesis project.
+This repository is a **public portfolio version** of the Bachelor thesis project.
 
-Selected documentation, architecture material and non-confidential implementation examples will be added progressively. Internal infrastructure details, credentials and institution-specific configuration are intentionally excluded.
+It contains the thesis document, architecture material and selected non-confidential implementation screenshots. Internal infrastructure details, credentials and institution-specific configuration are intentionally excluded.
