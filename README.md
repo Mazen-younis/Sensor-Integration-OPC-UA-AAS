@@ -26,6 +26,9 @@ The objective was to establish a reliable and extensible data foundation for fut
 - Docker & Docker Compose
 
 ## System Architecture
+![System architecture](docs/architecture/system_architecture.png)
+
+*Overall system architecture of the implemented monitoring and integration pipeline.*
 
 The solution follows a modular architecture consisting of:
 
