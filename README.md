@@ -11,6 +11,10 @@ The implemented system combines machine-internal data accessed via **OPC UA** wi
 
 The objective was to establish a reliable and extensible data foundation for future applications such as condition monitoring and predictive maintenance.
 
+## Thesis Document
+
+📄 [Read the full Bachelor thesis (PDF)](docs/thesis/Bachelorarbeit_MazenYounis.pdf)
+
 ## Key Technologies
 
 - Python
